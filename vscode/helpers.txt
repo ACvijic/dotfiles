@@ -1,0 +1,2 @@
+Files to exclude when searching (common list):
+*.js, *.html, *.scss, *.css, *.css.map, *.sql, *.js.map, *.svg, *.pug, *.md
