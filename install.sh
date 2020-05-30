@@ -32,8 +32,7 @@ done
 
 # configuring VSCode if installed
 echo "Checking if VSCode is installed"
-code=/snap/bin/code
-if test -f "$code"; then
+if [[ -f /snap/bin/code || -f /usr/bin/code ]]; then
     echo "VSCode is installed, running configure script"
     bash $dir/configure_code.sh
     echo "...done"
