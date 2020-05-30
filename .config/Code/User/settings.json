@@ -1,0 +1,35 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "sync.gist": "11d75dab7b3f568d8b43b48e66735254",
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "vscode-great-icons",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "terminal.integrated.fontSize": 13,
+    "window.zoomLevel": 0,
+    "blade.format.enable": true,
+    "window.title": "${activeEditorMedium}",
+    "breadcrumbs.enabled": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "showMusicMetrics": false,
+    "showGitMetrics": false,
+    "showWeeklyRanking": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "terminal.integrated.rendererType": "dom",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 200,
+    "editor.minimap.showSlider": "always",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.centerLayout": false,
+    "gitlens.mode.active": "zen",
+    "yaml.schemas": {
+        "file:///home/aleksa/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/workflow.schema.json": "/.github/workflows/*.yml",
+        "file:///home/aleksa/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/action.schema.json": "/action.yml"
+    }
+}

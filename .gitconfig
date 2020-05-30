@@ -1,0 +1,29 @@
+[user]
+	name = ACvijic
+	email = aleksa.cvijic@cubes.rs
+
+[alias]
+        # basic {{{
+	aliases = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        type = cat-file -t
+        dump = cat-file -p
+        # }}}
+        # reset commands {{{
+        r1 = reset HEAD^
+        r2 = reset HEAD^^
+        rh = reset --hard
+        rh1 = reset HEAD^ --hard
+        rh2 = reset HEAD^^ --hard
+        # }}}
+        # various useful {{{
+        # last tag created
+        lasttag = describe --tags --abbrev=0
+        lt = describe --tags --abbrev=0
+        # increment patch version & echo newest version to cmd-line
+	tap = "!VERSION=$(git describe --tags --abbrev=0 | awk -F. '{$3+=1; OFS=\".\"; gsub(\" \", \".\", $0); print $0}') ; git tag $VERSION; echo $VERSION"
+        # }}}
