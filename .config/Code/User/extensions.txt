@@ -1,6 +1,6 @@
 af4jm.vscode-m3u
 benjaminadk.emojis4git
-bmewburn.vscode-intelephense-client-1.2.3
+bmewburn.vscode-intelephense-client
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 codingyu.laravel-goto-view
