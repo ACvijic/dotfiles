@@ -1,0 +1,12 @@
+// Place your key bindings in this file to override the defaults
+[
+    { 
+        "key": "ctrl+alt+=",  
+        "command": "wwm.aligncode",
+        "when": "editorTextFocus && !editorReadonly" 
+    },
+    {
+        "key": "ctrl+u l",
+        "command": "editor.action.transformToLowercase"
+    }
+]
