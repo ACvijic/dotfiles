@@ -34,3 +34,5 @@ waderyan.gitblame
 wwm.better-align
 xabikos.javascriptsnippets
 zignd.html-css-class-completion
+jebbs.plantuml
+yassh.copy-with-line-numbers

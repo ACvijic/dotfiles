@@ -32,5 +32,13 @@
         "file:///home/aleksa/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/workflow.schema.json": "/.github/workflows/*.yml",
         "file:///home/aleksa/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/action.schema.json": "/action.yml"
     },
-    "php.validate.executablePath": "/usr/bin/php"
+    "php.validate.executablePath": "/usr/bin/php",
+    "extensions.ignoreRecommendations": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.associations": {
+        "*.stub": "php"
+    },
+
+    // Plantuml server to generate UML diagrams on-the-fly.
+    "plantuml.server": "http://www.plantuml.com/plantuml",
 }
