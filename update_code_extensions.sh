@@ -1,0 +1,1 @@
+ls ~/.vscode/extensions | perl -ne '/([\w\.\-]+)\-[0-9]*.[0-9]*.[0-9]*/ && print "$1\n"' > ~/dotfiles/.config/Code/User/extensions.txt
