@@ -5,9 +5,8 @@
     "workbench.iconTheme": "vscode-great-icons",
     "editor.multiCursorModifier": "ctrlCmd",
     "terminal.integrated.fontSize": 13,
-    "window.zoomLevel": 0,
     "blade.format.enable": true,
-    "window.title": "${activeEditorMedium}",
+    "window.title": "${rootName} 🚀 ${activeEditorMedium}",
     "breadcrumbs.enabled": true,
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
@@ -33,7 +32,7 @@
         "file:///home/aleksa/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/action.schema.json": "/action.yml"
     },
     "php.validate.executablePath": "/usr/bin/php",
-    "extensions.ignoreRecommendations": false,
+    "extensions.ignoreRecommendations": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "files.associations": {
         "*.stub": "php"
@@ -41,4 +40,36 @@
 
     // Plantuml server to generate UML diagrams on-the-fly.
     "plantuml.server": "http://www.plantuml.com/plantuml",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.editor.wrapTabs": true,
+    "terminal.integrated.scrollback": 10000,
+    "editor.tabSize": 2,
+    "aws.profile": "profile:default",
+    "cSpell.userWords": [
+        "backoff",
+        "mediaobject",
+        "remock",
+        "retryable",
+        "spyupdate",
+        "talpanetwork",
+        "upsert"
+    ],
+    "cSpell.enableFiletypes": [
+        "feature",
+        "shellscript"
+    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ]
+    },
+    "workbench.sideBar.location": "right",
+    "editor.fontFamily": "'Cascadia Code'",
+    "editor.fontLigatures": true
 }
