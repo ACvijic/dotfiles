@@ -1,5 +1,6 @@
 af4jm.vscode-m3u
 alexkrechik.cucumberautocomplete
+amazonwebservices.aws-toolkit-vscode
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
@@ -16,11 +17,15 @@ mechatroner.rainbow-csv
 mhutchie.git-graph
 mikestead.dotenv
 mitchdenny.ecdc
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
 ms-vscode.node-debug2
 ms-vsliveshare.vsliveshare
 octref.vetur
 piotr-porzuczek.jest-cucumber-code-generator-extension
 quicktype.quicktype
+redhat.vscode-commons
 redhat.vscode-yaml
 sleistner.vscode-fileutils
 streetsidesoftware.code-spell-checker
