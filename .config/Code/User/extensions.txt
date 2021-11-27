@@ -1,3 +1,4 @@
+adpyke.codesnap
 af4jm.vscode-m3u
 alexkrechik.cucumberautocomplete
 amazonwebservices.aws-toolkit-vscode
@@ -13,6 +14,8 @@ emmanuelbeziat.vscode-great-icons
 grogdunn.netbeans-keybindings
 jebbs.plantuml
 kumar-harsh.graphql-for-vscode
+luggage66.awk
+luqimin.velocity
 mechatroner.rainbow-csv
 mhutchie.git-graph
 mikestead.dotenv
@@ -20,16 +23,22 @@ mitchdenny.ecdc
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
 ms-vscode.node-debug2
 ms-vsliveshare.vsliveshare
 octref.vetur
+orta.vscode-jest
 piotr-porzuczek.jest-cucumber-code-generator-extension
 quicktype.quicktype
 redhat.vscode-commons
 redhat.vscode-yaml
 sleistner.vscode-fileutils
 streetsidesoftware.code-spell-checker
+tuxtina.json2yaml
 tyriar.sort-lines
 waderyan.gitblame
+wayou.vscode-todo-highlight
+wmaurer.change-case
 xabikos.javascriptsnippets
 yassh.copy-with-line-numbers
