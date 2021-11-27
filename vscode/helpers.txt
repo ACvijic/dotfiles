@@ -1,2 +1,11 @@
 Files to exclude when searching (common list):
 *.js, *.html, *.scss, *.css, *.css.map, *.sql, *.js.map, *.svg, *.pug, *.md
+
+Replace unnecessary backticks (`Test me, no vars here` => 'Test me, no vars here')
+regex search: `([A-Za-z ,!.-\/\\\?]+)`
+replace: '$1'
+
+Replace function attributes with AWS_LAMBDA_NAME
+regex search: function: '([\w\.]+)'
+or regex search: function: '(\w+)'
+replace: function: `${process.env.AWS_LAMBDA_FUNCTION_NAME}.$1`
