@@ -25,7 +25,9 @@ ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers
+ms-vscode.js-debug-companion
 ms-vscode.node-debug2
+ms-vscode.references-view
 ms-vsliveshare.vsliveshare
 octref.vetur
 orta.vscode-jest
@@ -35,6 +37,7 @@ redhat.vscode-commons
 redhat.vscode-yaml
 sleistner.vscode-fileutils
 streetsidesoftware.code-spell-checker
+tomsaunders-code.workspace-explorer
 tuxtina.json2yaml
 tyriar.sort-lines
 waderyan.gitblame
