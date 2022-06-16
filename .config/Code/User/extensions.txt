@@ -2,8 +2,10 @@ adpyke.codesnap
 af4jm.vscode-m3u
 alexkrechik.cucumberautocomplete
 amazonwebservices.aws-toolkit-vscode
+angular.ng-template
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
+davidbabel.vscode-simpler-icons
 dbaeumer.vscode-eslint
 donjayamanne.githistory
 dotjoshjohnson.xml
@@ -13,6 +15,7 @@ eg2.vscode-npm-script
 emmanuelbeziat.vscode-great-icons
 grogdunn.netbeans-keybindings
 jebbs.plantuml
+johnpapa.angular2
 kumar-harsh.graphql-for-vscode
 luggage66.awk
 luqimin.velocity
